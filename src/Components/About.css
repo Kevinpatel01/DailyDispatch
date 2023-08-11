@@ -1,0 +1,56 @@
+.about {
+    background-image: url("https://images.unsplash.com/photo-1633460448937-b03467417aaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 92.3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    color: #333333;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card1 {
+    opacity: 0.5;
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 90px;
+    flex-direction: column;
+    border: 3px solid rgb(0 0 0 / 50%);
+    border-radius: 1.25rem;
+}
+
+
+
+
+
+.card1-body {
+    padding: 20px;
+}
+
+.card1-title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card1-text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

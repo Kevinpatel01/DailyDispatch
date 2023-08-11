@@ -1,0 +1,51 @@
+Website Features:
+
+=> Login Page: Login to the website to read the news.
+
+
+=> Registration Page: Register yourself to the website.
+
+
+=> Main Page: User can see news on this page which are of general category.
+
+
+=> Navbar: Navbar contains different categories of news like Buisness, Entertainment, Sports, Science etc..
+           Also, It contains Profile Icon and Logout Icon.
+
+
+=> Searchbar: User can search specific news.
+
+=> About us: About us page gives short description about website.
+
+=> Logout: Logout from the website.
+
+=> Profile: user profile is added but not connected with backend so it will not give details of user.
+
+=> User can read news of specific category by clicking on that category.
+
+=> Previous and Next button is added so that user can move to next page for reading different news and 
+   by clicking on Previos button, user can come back to preios page.
+
+=> Read More: Read More button will redirect user to the main source of news.
+
+
+<======>Technologies used to make the website <=====>
+
+---> Frontend :-
+
+1. aos for animation
+2. bootstrap
+3. react-icons
+4. CSS
+
+---> Back-end :-
+
+1. MongoDB
+
+===> Libraries which are used in DailyDispatch <===
+
+1. axios
+2. mongoose
+3. nodemon
+4. express
+5. cors

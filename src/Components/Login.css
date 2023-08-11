@@ -1,0 +1,80 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://thumbs.dreamstime.com/b/news-article-digital-tablet-coffee-cup-black-wooden-background-43995989.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.login-container {
+  width: 400px;
+  height: 350px;
+  padding: 20px;
+  border: 0.5px solid #ccc;
+  background-color: rgb(178, 175, 172);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.login-container div {
+  margin-bottom: 10px;
+}
+
+.login-container label {
+  display: block;
+  font-weight: bold;
+  color: #000000;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  color: #000000;
+  margin-top: 8px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 12px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: white;
+  color: black;
+}
+
+.login-container p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.login-container .sign-up-link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.login-container .sign-up-link:hover {
+  text-decoration: underline;
+}

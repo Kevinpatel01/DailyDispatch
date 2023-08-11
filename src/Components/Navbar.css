@@ -1,0 +1,72 @@
+/* Navbar container */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Navigation list */
+  .nav-list {
+    list-style:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation item */
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  /* Navigation link */
+  .nav1 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav1:hover {
+    color: #ff9900;
+  }
+  
+  /* Profile and logout button section */
+  .button-prof {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Profile section */
+  .profile-section {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .profile {
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .profile:hover {
+    color: #ff9900;
+  }
+  
+  /* Logout button */
+  .button {
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .logouticon {
+    margin-left: 15px;
+  }
+  
+  .button:hover {
+    color: #ff9900;
+  }
+  

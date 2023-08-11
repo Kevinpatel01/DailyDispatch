@@ -1,0 +1,89 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://thumbs.dreamstime.com/b/reading-news-tablet-newspaper-wooden-background-reading-news-tablet-newspaper-wooden-background-115281648.jpg?w=992');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.register-container {
+  width: 300px;
+  height: 420px;
+  padding: 20px;
+  border: 0.5px solid #ccc;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 700px;
+
+}
+
+.register-container:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+.register-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.register-container div {
+  margin-bottom: 10px;
+}
+
+.register-container label {
+  display: block;
+  font-weight: bold;
+  color: #000000;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  color: #000000;
+  margin-top: 8px;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 12px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-container button:hover {
+  background-color: rgb(225, 190, 190);
+  color: black;
+}
+
+.register-container p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.register-container .login-link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.register-container .login-link:hover {
+  text-decoration: underline;
+}
